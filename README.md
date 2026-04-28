@@ -1,7 +1,8 @@
-# Worms da Wish
+# Worms da Wish~
 
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
-
+<p align="center">
+  <img src="link_para_tua_imagem.png" alt="Worms da Wish Logo" width="400">
+</p>
 
 ## Origin
 
@@ -10,10 +11,10 @@ Originally an University Project in UMinho, now an continuously improved p# 🐛
 
 
 ## 🛠 Tech Stack
-- **Language:** ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white)
-- **Graphics:** Gloss Library
-- **Build System:** Stack / Cabal
-- **Environment:** ![Platform](https://img.shields.io/badge/Platform-WSL2%20%2F%20Linux-blue?style=for-the-badge)
+- **Language:** ![Haskell](https://img.shields.io/badge/Language-Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white)
+- **Graphics:** ![Gloss](https://img.shields.io/badge/Graphics-Gloss-blue?style=for-the-badge&logo=opengl&logoColor=white)
+- **Build System:** ![Cabal](https://img.shields.io/badge/Build%20System-Cabal-ffad13?style=for-the-badge&logo=haskell&logoColor=white)
+- **Environment:** ![Platform](https://img.shields.io/badge/Platform-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ## 🚀 Key Features & Engineering
 - Nothing so far
