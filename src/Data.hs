@@ -1,3 +1,14 @@
+{-|
+Module      : Data
+Description : Central data types and game engine states.
+Copyright   : (c) 0wl01, 2026
+Maintainer  : programming0wl01@gmail.com
+
+This module contains all structural definitions of the game.
+It contains no computational logic or state manipulation,
+only the architectural structure: coordinates, entities, weapons, terrain types, etc.
+-}
+
 module Data
     ( module Data
     , module Grid

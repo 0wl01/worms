@@ -1,36 +1,59 @@
-module Tarefa0_geral where
+{-|
+Module      : Grid
+Description : Spatial geometry and matrix manipulation utilities.
+Copyright   : (c) 0wl01, 2026
+Maintainer  : programming0wl01@gmail.com
 
---Funções Auxiliares
+This module provides the fundamental mathematical and spatial operations 
+for the game. It handles 2D coordinate calculations, direction vectors, 
+and generic matrix read/write operations. It is completely decoupled from 
+the game's specific rules or entities.
+-}
+module Grid where
 
--- | Verifica se um índice é válido para uma lista.
-eIndiceListaValido :: Int -> [a] -> Bool
-eIndiceListaValido x l = x < length l && x >= 0 --evitar indices negativos enquanto o canto superior esquerdo for pos (0,0)
+import Data
 
--- | Devolve a dimensão de uma matriz.
-dimensaoMatriz :: Matriz a -> Dimensao
-dimensaoMatriz [] = (0,0)
-dimensaoMatriz l = (length l, length (head l))
+-- | Checks if an index is valid within a given list.
+isValidListIndex :: Int -> [a] -> Bool
+isValidListIndex index list = index < length list && x >= 0 
+-- Any Index is valid as long it's not bigger than the list and a positive number
 
--- | Verifica se a posição pertence à matriz.
-ePosicaoMatrizValida :: Posicao -> Matriz a -> Bool 
-ePosicaoMatrizValida (x, y) m =
-  let (nLinhas, nColunas) = dimensaoMatriz m
+-- | Returns the dimensions (rows, columns) of a matrix.
+matrixDimensions :: Matrix a -> Dimensions
+matrixDimensions [] = (0,0)
+matrixDimensions matrix = (length matrix, length (head matrix))
+-- Length of matrix gives the number of lines
+-- length (head) gives the number of colunms inside the first line
+
+-- | Checks if a given position exists within the matrix boundaries.
+isValidPosition :: Position -> Matrix a -> Bool 
+isValidPosition (x, y) matrix =
+  let (nLines, nColumn) = matrixDimensions matrix
   in x >= 0 && y >= 0 && x < nLinhas && y < nColunas
 
--- | Move uma posição uma unidade no sentido de uma direção.
-movePosicao :: Direcao -> Posicao -> Posicao
-movePosicao Norte    (x,y) =(x-1, y)
-movePosicao Nordeste (x,y) = (x-1, y+1)
-movePosicao Este     (x,y) = (x, y+1)
-movePosicao Sudeste  (x,y) = (x+1, y+1)
-movePosicao Sul      (x,y) = (x+1, y)
-movePosicao Sudoeste (x,y) = (x+1, y-1)
-movePosicao Oeste    (x,y) = (x, y-1)
-movePosicao Noroeste (x,y) = (x-1, y-1)
+-- | Calculates the new position after moving one step in a given direction.
+movePosition :: Direction -> Position -> Position
 
---este sistema presume que a origem (0,0) está no canto superior esquerdo
---se começarmos a usar origem no centro temos de mudar
---troquei para pattern matching sem guardas, para melhorar a legibilidade e evitar redudância
+-- | Safely moves a position, ensuring it doesn't leave the defined window dimensions.
+movePositionWindow :: Dimensions -> Direction -> Position -> Position
+
+-- | Converts a top-left origin position to a center origin position.
+originToCenter :: Dimensions -> Position -> Position
+
+-- | Rotates a direction 45 degrees to the right.
+rotateDirectionRight :: Direction -> Direction
+
+-- | Safely retrieves an element from a list at a given index.
+getElementAt :: Int -> [a] -> Maybe a
+
+-- | Updates an element in a list at a specific index.
+updateElementAt :: Int -> a -> [a] -> [a]
+
+-- | Safely retrieves an element from a matrix at a given 2D position.
+getMatrixElement :: Position -> Matrix a -> Maybe a
+
+-- | Updates an element in a matrix at a given 2D position.
+updateMatrixElement :: Position -> a -> Matrix a -> Matrix a
 
 -- | Versão da função 'movePosicao' que garante que o movimento não se desloca para fora de uma janela.
 movePosicaoJanela :: Dimensao -> Direcao -> Posicao -> Posicao

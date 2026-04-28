@@ -1,6 +1,4 @@
 module Tarefa0_2025 where
-    
-import tipos
 
 -- | Retorna a quantidade de munições disponíveis de uma minhoca para uma dada arma.
 -- Tipos de Armas disponiveis: Jetpack | Escavadora | Bazuca | Mina | Dinamite
