@@ -1,4 +1,4 @@
-# Worms da Wish~
+# Worms da Wish
 
 <p align="center">
   <img src="link_para_tua_imagem.png" alt="Worms da Wish Logo" width="400">
@@ -10,11 +10,12 @@ Originally an University Project in UMinho, now an continuously improved p# 🐛
 > A Haskell-powered 2D artillery game focused on functional purity and chaotic physics.
 
 
+![OpenGL](https://img.shields.io/badge/OpenGL-FFFFFF?style=for-the-badge&logo=opengl&logoColor=5586A4)
 ## 🛠 Tech Stack
-- **Language:** ![Haskell](https://img.shields.io/badge/Language-Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white)
+- **Language:** ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white)
 - **Graphics:** ![Gloss](https://img.shields.io/badge/Graphics-Gloss-blue?style=for-the-badge&logo=opengl&logoColor=white)
-- **Build System:** ![Cabal](https://img.shields.io/badge/Build%20System-Cabal-ffad13?style=for-the-badge&logo=haskell&logoColor=white)
-- **Environment:** ![Platform](https://img.shields.io/badge/Platform-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+- **Build System:** ![Cabal](https://img.shields.io/badge/Cabal-ffad13?style=for-the-badge&logo=haskell&logoColor=white)
+- **Environment:** ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ## 🚀 Key Features & Engineering
 - Nothing so far
