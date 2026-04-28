@@ -1,5 +1,8 @@
 # Worms da Wish
 
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
+
+
 ## Origin
 
 Originally an University Project in UMinho, now an continuously improved p# 🐛 Worms da Wish
@@ -7,10 +10,10 @@ Originally an University Project in UMinho, now an continuously improved p# 🐛
 
 
 ## 🛠 Tech Stack
-- **Language:** Haskell
+- **Language:** ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white)
 - **Graphics:** Gloss Library
 - **Build System:** Stack / Cabal
-- **Environment:** Developed on Linux
+- **Environment:** ![Platform](https://img.shields.io/badge/Platform-WSL2%20%2F%20Linux-blue?style=for-the-badge)
 
 ## 🚀 Key Features & Engineering
 - Nothing so far
