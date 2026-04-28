@@ -1,15 +1,5 @@
 module Tarefa0_geral where
 
---Tipos de dados
-type Matriz a = [[a]]
--- | var: (a,b)
-type Posicao = (Int,Int)
--- | var: (x,y) x cresce para baixo e y para a direita
-type Dimensao = (Int,Int)
--- | var: (lin,col)
-data Direcao = Norte | Nordeste | Este | Sudeste | Sul | Sudoeste | Oeste | Noroeste
-    deriving (Eq,Ord,Show,Read,Enum)
-
 --Funções Auxiliares
 
 -- | Verifica se um índice é válido para uma lista.
