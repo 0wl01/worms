@@ -1,21 +1,20 @@
 # Worms da Wish
 
 <p align="center">
-  <img src="link_para_tua_imagem.png" alt="Worms da Wish Logo" width="400">
+  <img src="assets/worms_templogo.png" alt="Worms da Wish Logo" width="400">
 </p>
 
 ## Origin
 
-Originally an University Project in UMinho, now an continuously improved p# 🐛 Worms da Wish
+An University Project in UMinho, now an continuously improved game 🐛 <b>
+Worms da Wish </b> 
 > A Haskell-powered 2D artillery game focused on functional purity and chaotic physics.
 
-
-![OpenGL](https://img.shields.io/badge/OpenGL-FFFFFF?style=for-the-badge&logo=opengl&logoColor=5586A4)
 ## 🛠 Tech Stack
-- **Language:** ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white)
-- **Graphics:** ![Gloss](https://img.shields.io/badge/Graphics-Gloss-blue?style=for-the-badge&logo=opengl&logoColor=white)
-- **Build System:** ![Cabal](https://img.shields.io/badge/Cabal-ffad13?style=for-the-badge&logo=haskell&logoColor=white)
-- **Environment:** ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+- **Language:** <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/haskell/haskell-original.svg" width="45" align="center" />
+- **Graphics:** <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opengl/opengl-plain.svg" width="40" title="OpenGL/Gloss" align="center" />
+- **Build System:** <img src="https://img.shields.io/badge/Cabal-ffad13?style=for-the-badge&logo=haskell&logoColor=white" align="center"  />
+- **Environment:** <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" title="Linux" align="center" />
 
 ## 🚀 Key Features & Engineering
 - Nothing so far
