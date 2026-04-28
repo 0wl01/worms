@@ -1,7 +1,7 @@
 module Worms where
 
 import Graphics.Gloss
-import Labs2025
+import tipos
 import Tarefa6 (Dificuldade(..)) -- Importa Facil | Medio | Dificil
 
 -- | Define os modos de jogo.

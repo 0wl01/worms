@@ -4,7 +4,7 @@ Description : Testes para a Tarefa 4
 -}
 module Main where
 
-import Labs2025
+import tipos
 import Tarefa4
 
 -- | Lista de testes para a Tarefa 4

@@ -6,7 +6,7 @@ module Tarefa4 where
 
 import Data.List (maximumBy)
 import Data.Ord (comparing)
-import Labs2025
+import tipos
 import Tarefa2   -- Executa a jogada (T2)
 import Tarefa3   -- Avança o tempo/explosões (T3)
 

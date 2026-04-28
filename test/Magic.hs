@@ -20,7 +20,7 @@ import GHC.Generics
 import Control.DeepSeq
 import Control.Exception
 
-import Labs2025
+import tipos
 
 -- * Feedback
 

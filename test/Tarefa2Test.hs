@@ -4,7 +4,7 @@ Description : Testes completos para a Tarefa 2 - Validação de Jogadas
 -}
 module Main where
 
-import Labs2025
+import tipos
 import Tarefa2
 import Magic
 

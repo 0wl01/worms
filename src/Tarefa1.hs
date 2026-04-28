@@ -1,6 +1,6 @@
 module Tarefa1 where
 
-import Labs2025
+import tipos
 import Tarefa0_2025
 
 -- | Função principal da Tarefa 1. Recebe um estado e retorna se este é válido ou não.

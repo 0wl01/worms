@@ -4,7 +4,7 @@ Description : Funcionalidades Extra
 -}
 module Tarefa6 where
 
-import Labs2025
+import tipos
 import qualified Tarefa4 as T4 -- Importa o bot de elite da Tarefa 4
 import Data.List (minimumBy)
 import Data.Ord (comparing)

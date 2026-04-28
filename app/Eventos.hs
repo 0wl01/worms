@@ -1,7 +1,7 @@
 module Eventos where
 
 import Graphics.Gloss.Interface.Pure.Game
-import Labs2025
+import tipos
 import Tarefa2 (efetuaJogada, aplicaRecuo)
 import Worms
 import Tarefa6 (Dificuldade(..))

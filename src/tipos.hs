@@ -1,5 +1,5 @@
-module Labs2025
-    ( module Labs2025
+module tipos
+    ( module tipos
     , module Tarefa0_geral
     ) where
 

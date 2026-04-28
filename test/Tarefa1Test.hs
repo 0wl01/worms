@@ -4,7 +4,7 @@ Description : Testes completos para a Tarefa 1 - Validação de Estados
 -}
 module Main where
 
-import Labs2025
+import tipos
 import Tarefa1
 import Magic
 

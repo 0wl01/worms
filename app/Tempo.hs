@@ -1,6 +1,6 @@
 module Tempo where
 
-import Labs2025
+import tipos
 import Tarefa3 (avancaEstado)
 import Tarefa2 (efetuaJogada, aplicaRecuo)
 import Tarefa6 (aplicaExtras, seletorIA) 

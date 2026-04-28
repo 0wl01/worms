@@ -2,7 +2,7 @@ module Main where
 
 import Graphics.Gloss
 import Graphics.Gloss.Juicy
-import Labs2025
+import tipos
 import Worms
 import Desenhar
 import Eventos

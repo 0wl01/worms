@@ -1,7 +1,7 @@
 module Tarefa3 where
 
 import Data.Either (partitionEithers)
-import Labs2025
+import tipos
 import Tarefa0_2025
 import Tarefa2
 

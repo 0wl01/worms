@@ -11,7 +11,6 @@ license:            NONE
 
 -- The package author(s).
 author:             José Diogo Ferreira Barbosa <a96609@alunos.uminho.pt>
-                    José Dinis Ramos <a100097@alunos.uminho.pt>
 
 
 category:           Game
@@ -28,7 +27,7 @@ library
     -- Modules exported by the library.
     exposed-modules:
         Tarefa4
-        Labs2025
+        tipos
         Tarefa0_geral
         Tarefa0_2025
         Tarefa1

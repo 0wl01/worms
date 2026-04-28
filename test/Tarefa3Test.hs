@@ -4,7 +4,7 @@ Description : Testes  para a Tarefa 3 - Avançar tempo do jogo
 -}
 module Main where
 
-import Labs2025
+import tipos
 import Tarefa3
 import Magic
 

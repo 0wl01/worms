@@ -1,7 +1,7 @@
 module Desenhar where
 
 import Graphics.Gloss
-import Labs2025
+import tipos
 import Worms
 import Tarefa6
 
